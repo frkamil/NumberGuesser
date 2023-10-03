@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1 class="center">Number Guesser</h1>
+    <hr />
+    <h3 class="center">Insert a number and I will do my best to guess it!</h3>
+    <p class="center">Input your number: <input id="Number" type="number" /></p>
+    <hr />
+    <h4>
+      I will ask you a few questions to help me figure out your number. If your
+      answer to the statement is yes, please put one. If it is not, put two.
+    </h4>
+    <p class="tiny">
+      *Please answer truthfully. I am only a program and need your help to make
+      this a fun experience for both of us!
+    </p>
+    <hr />
+    <p>
+      Does your number have more than two digits? <input id="1" type="number" />
+    </p>
+    <p>Is your number even? <input id="2" type="number" /></p>
+    <p>Is your number a multiple of three? <input id="3" type="number" /></p>
+    <p>Is your number a multiple of five? <input id="4" type="number" /></p>
+    <p>Is your number a multiple of seven? <input id="9" type="number" /></p>
+    <p>
+      Is the first digit of your number even? <input id="5" type="number" />
+    </p>
+    <p>
+      Is first digit of your number a multiple of 2?
+      <input id="6" type="number" />
+    </p>
+    <p>
+      If you add all of the digits in your number, is it divisable by two?
+      <input id="7" type="number" />
+    </p>
+    <p>
+      If you add all of the digits in your number, is it divisable by three?
+      <input id="8" type="number" />
+    </p>
+    <p>
+      Does your number contain a four?
+      <input id="10" type="number" />
+    </p>
+    <p>Does your number contain a nine? <input id="11" type="number" /></p>
+    <p class="center">
+      <button id="btn">I am ready to guess!</button>
+    </p>
+    <hr />
+    <h4>Is your number...</h4>
+    <h1 id="output" class="center">---</h1>
+    <h4>Well? Did I guess correctly?</h4>
+    <p><button id="btn2">Yes!</button></p>
+    <p><button id="btn3">No.</button></p>
+  </body>
+</html>
