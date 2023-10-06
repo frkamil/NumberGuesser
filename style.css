@@ -1,48 +1,38 @@
-html {
-  background: url("img/sunrise-6tlr4cfeg3q0al8n.jpg") no-repeat center fixed;
-  background-size: cover;
-}
+/* html {
+  /* background: url("img/img/floral-ornamental-abstract-background_52683-30016.avif")
+    no-repeat center fixed;
+  background-size: cover; } */
 
 body {
-  /* background-color: rgba(34, 15, 46, 0.9);
-  background-color: rgba(82, 61, 92, 0.9); */
+  background-color: rgba(74, 65, 42);
+  /* background-color: rgba(82, 61, 92, 0.9);
   background-image: linear-gradient(
     rgba(34, 15, 46, 0.9),
-    rgba(82, 61, 92, 0.9)
-  );
+    rgba(101, 61, 120, 0.9)
+  ); */
   border-radius: 15px;
   width: 600px;
   margin: 25px auto;
   padding: 25px 150px 50px;
   font-family: "Times New Roman", Times, serif;
-  color: rgba(255, 158, 158, 0.629);
+  color: rgb(0, 0, 0);
 }
 
 h1 {
   font-family: serif;
   font-size: 400%;
-  color: rgba(255, 158, 158, 0.629);
-}
-
-button {
-  background-color: rgba(255, 158, 158, 0.344);
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  padding: 5px 8px;
-  border-radius: 25px;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
+  color: rgba(0, 0, 0, 0.629);
 }
 
 button:hover {
-  background-color: rgba(210, 123, 170, 0.329);
+  background-color: rgba(0, 0, 0, 0.329);
   color: black;
 }
 
 input {
   width: 50px;
-  background-color: rgb(149, 67, 67, 0.329);
-  color: rgba(255, 130, 130, 0.593);
+  background-color: rgba(0, 0, 0, 0.329);
+  color: rgba(74, 65, 42);
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
 }
@@ -52,5 +42,16 @@ input {
 }
 
 .center {
+  text-align: center;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.344);
+  color: rgb(74, 65, 42);
+  cursor: pointer;
+  padding: 5px 8px;
+  border-radius: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
   text-align: center;
 }

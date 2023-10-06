@@ -1,9 +1,8 @@
-document.getElementById("btn").addEventListener("click", madlib);
-document.getElementById("btn2").addEventListener("click", correctAns);
-document.getElementById("btn3").addEventListener("click", wrongAns);
+document.getElementById("bbtn").addEventListener("click", ft);
+document.getElementById("goodbtn").addEventListener("click", otlCorrectAns);
+document.getElementById("betterbtn").addEventListener("click", sotlWrongAns);
 
-function madlib() {
-  // INPUT
+function ft() {
   let o1 = document.getElementById("1").value;
   let o2 = document.getElementById("2").value;
   let o3 = document.getElementById("3").value;
@@ -14,31 +13,17 @@ function madlib() {
   let o8 = document.getElementById("8").value;
   let o9 = document.getElementById("9").value;
   let o10 = document.getElementById("10").value;
-  let o11 = document.getElementById("11").value;
-  let number = document.getElementById("Number").value;
+  let number = document.getElementById("number").value;
   let msg = `${number}`;
-  if (
-    1000 >= number &&
-    number >= 0 &&
-    (o1 === 1 || 2) &&
-    (o2 === 1 || 2) &&
-    (o3 === 1 || 2) &&
-    (o4 === 1 || 2) &&
-    (o5 === 1 || 2) &&
-    (o6 === 1 || 2) &&
-    (o7 === 1 || 2) &&
-    (o8 === 1 || 2) &&
-    (o9 === 1 || 2) &&
-    (o10 === 1 || 2) &&
-    (o11 === 1 || 2)
-  ) {
+
+  if (number && o1 && o2 && o3 && o4 && o5 && o6 && o7 && o8 & o9 && o10) {
     document.getElementById("output").innerHTML = msg;
   } else {
-    alert("Please fill out all fields of information!");
+    alert(5666666666);
   }
 }
 
-function correctAns() {
+function otlCorrectAns() {
   prompt(
     "Yay! I'm so glad I guessed correctly! Did you enjoy this experience?"
   );
@@ -46,7 +31,7 @@ function correctAns() {
   alert("Thank you for your feedback.");
 }
 
-function wrongAns() {
+function sotlWrongAns() {
   prompt("Oh no! I'm sorry. Is there any way I can improve?");
   alert("Thank you for your feedback.");
 }
