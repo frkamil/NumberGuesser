@@ -13,13 +13,27 @@ function ft() {
   let o8 = document.getElementById("8").value;
   let o9 = document.getElementById("9").value;
   let o10 = document.getElementById("10").value;
+  let msg1 = `Kill me`;
   let number = document.getElementById("number").value;
   let msg = `${number}`;
 
-  if (number && o1 && o2 && o3 && o4 && o5 && o6 && o7 && o8 & o9 && o10) {
-    document.getElementById("output").innerHTML = msg;
-  } else {
-    alert(5666666666);
+  function death() {
+    if (
+      (o1 === 1 || o1 === 2) &&
+      (o2 === 1 || o2 === 2) &&
+      (o3 === 1 || o3 === 2) &&
+      (o4 === 1 || o4 === 2) &&
+      (o5 === 1 || o5 === 2) &&
+      (o6 === 1 || o6 === 2) &&
+      (o7 === 1 || o7 === 2) &&
+      (o8 === 1 || o8 === 2) &&
+      (o9 === 1 || o9 === 2) &&
+      (o10 === 1 || o10 === 2)
+    ) {
+      document.getElementById("output").innerHTML = msg;
+    } else {
+      document.getElementById("output").innerHTML = msg1;
+    }
   }
 }
 

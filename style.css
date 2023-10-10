@@ -1,15 +1,15 @@
-/* html {
-  /* background: url("img/img/floral-ornamental-abstract-background_52683-30016.avif")
-    no-repeat center fixed;
-  background-size: cover; } */
+html {
+  background: url("img/2411049-HSC00001-7.jpg") no-repeat center fixed;
+  background-size: cover;
+}
 
 body {
-  background-color: rgba(74, 65, 42);
-  /* background-color: rgba(82, 61, 92, 0.9);
+  /* background-color: rgba(74, 65, 42);
+  background-color: rgba(82, 61, 92, 0.9); */
   background-image: linear-gradient(
-    rgba(34, 15, 46, 0.9),
-    rgba(101, 61, 120, 0.9)
-  ); */
+    rgba(187, 182, 137, 0.9),
+    rgb(204, 136, 153, 0.9)
+  );
   border-radius: 15px;
   width: 600px;
   margin: 25px auto;
@@ -32,7 +32,7 @@ button:hover {
 input {
   width: 50px;
   background-color: rgba(0, 0, 0, 0.329);
-  color: rgba(74, 65, 42);
+  color: rgb(193, 193, 193);
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
 }
@@ -47,7 +47,7 @@ input {
 
 button {
   background-color: rgba(0, 0, 0, 0.344);
-  color: rgb(74, 65, 42);
+  color: rgb(190, 190, 190);
   cursor: pointer;
   padding: 5px 8px;
   border-radius: 25px;
